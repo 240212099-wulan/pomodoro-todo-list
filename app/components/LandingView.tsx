@@ -2,7 +2,8 @@
 
 export default function LandingView({ onStart }: { onStart: () => void }) {
   return (
-    <main className="flex min-h-screen items-center justify-center p-6">
+    /* Tambahkan bg-[#fef7e5] (krem) atau bg-sky-100 (biru pastel) di sini */
+    <main className="flex min-h-screen items-center justify-center p-6 bg-[#fef7e5]">
       <div className="card w-full max-w-xl rounded-[2.5rem] p-8 text-center sm:p-12">
         {/* Gambar Pengganti Ikon */}
         <div className="sway flex justify-center">
