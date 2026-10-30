@@ -13,7 +13,7 @@ export default function Header({ user, query, onQuery, onMenu, urgent, notify, o
       <div className="mx-auto flex max-w-5xl items-center gap-2 px-3 py-3 sm:gap-4 sm:px-6">
         <button aria-label="Buka menu" onClick={onMenu} className="rounded-xl p-2 text-xl hover:bg-line">☰</button>
         <div className="flex items-center gap-2 font-display text-lg font-semibold">
-          <span aria-hidden>🐶</span><span className="hidden md:inline">Snoopy Task Hub</span>
+          <span aria-hidden>☘︎</span><span className="hidden md:inline">To Do Ur List</span>
         </div>
         <label className="relative mx-auto max-w-md flex-1">
           <span className="absolute left-3 top-1/2 -translate-y-1/2" aria-hidden>🔍</span>
